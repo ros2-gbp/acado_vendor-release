@@ -1,0 +1,8 @@
+ros-rolling-acado-vendor (1.0.0-3bullseye) bullseye; urgency=high
+
+  * Initial port from Autoware.Auto
+  * Contributors: Joshua Whitley
+
+ -- Christopher Ho <christopherj.ho@gmail.com>  Thu, 25 Feb 2021 08:00:00 -0000
+
+
