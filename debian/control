@@ -1,0 +1,12 @@
+Source: ros-humble-acado-vendor
+Section: misc
+Priority: optional
+Maintainer: Christopher Ho <christopherj.ho@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-humble-ament-cmake, ros-humble-ament-cmake-lint-cmake <!nocheck>, ros-humble-ament-cmake-xmllint <!nocheck>, ros-humble-ament-lint-auto <!nocheck>, ros-humble-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-humble-acado-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-humble-ros-workspace
+Description: ament package for ACADO toolkit for MPC code generation
