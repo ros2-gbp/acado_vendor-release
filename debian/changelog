@@ -1,0 +1,8 @@
+ros-iron-acado-vendor (1.0.0-6jammy) jammy; urgency=high
+
+  * Initial port from Autoware.Auto
+  * Contributors: Joshua Whitley
+
+ -- Christopher Ho <christopherj.ho@gmail.com>  Wed, 24 Feb 2021 16:00:00 -0000
+
+
