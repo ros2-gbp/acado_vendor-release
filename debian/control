@@ -1,0 +1,12 @@
+Source: ros-iron-acado-vendor
+Section: misc
+Priority: optional
+Maintainer: Christopher Ho <christopherj.ho@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ament-cmake-lint-cmake <!nocheck>, ros-iron-ament-cmake-xmllint <!nocheck>, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-acado-vendor
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-ros-workspace
+Description: ament package for ACADO toolkit for MPC code generation
